@@ -1,8 +1,9 @@
-package guru.springframework.sfgdi.services;
+package guru.springframework.sfgdi._01_types_of_di.services;
 
+import guru.springframework.sfgdi._02_primary_profile.services.GreetingService;
 import org.springframework.stereotype.Service;
 
-@Service()
+@Service
 public class SetterGreetingService implements GreetingService {
     @Override
     public String sayGreeting() {
